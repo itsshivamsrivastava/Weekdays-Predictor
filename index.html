@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeekdayFinder</title>
+
+    <link rel="stylesheet" href="/style.css">
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="/favicon_io/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Akaya Telivigala">
+
+</head>
+<body class="body">
+    <h1 class="font-family-h1 text-center my-top-2"><a href="/">WeekdayFinder</a></h1>
+    <div class="my-container my-5">
+        <div class="container">
+    
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="form-group text-center">
+                        <label for="date" class="font-family-label my-4 font-weight-bold">Enter the date</label>
+                        <input type="date" name="date" id="date" class="input-box font-family-h1">
+
+                        <div class="text-center my-3">
+                            <button type="submit" id="button" class="font-family-btn my-btn mt-3">Find Weekday</button>
+                            <button type="reset" id="clear" onclick="clrscr()" class="font-family-btn my-btn mt-3">clear</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <p class="font-family-p text-center my-2"></p> -->
+            <p class="text-center font-family-p" id="result">Your result will display here</p>
+    
+        </div>
+    </div>
+    <footer class="my-footer">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="copyright-box"> 
+              <p class="copyright">All right reserved &copy; 2022 | <a rel="noopener" target="_blank" href="https://shivamsrivastava.netlify.app/"><strong>Shivam Srivastava</strong></a></p>
+              <div class="credits">
+                <!-- Social Media icons -->
+                <a rel="noopener" href="https://www.facebook.com/itsmeshivamsrivastava/" class="fa fa-facebook mx-2" target="_blank"></a>
+                <a rel="noopener" href="https://www.instagram.com/itsshivamsrivastava/" class="fa fa-instagram mx-2" target="_blank"></a>
+                <a rel="noopener" href="https://www.linkedin.com/in/itsshivamsrivastava/" class="fa fa-linkedin mx-2" target="_blank"></a>
+                <a rel="noopener" href="https://www.github.com/itsshivamsrivastava/" class="fa fa-github mx-2" target="_blank"></a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer><!-- End  Footer -->
+
+    <!-- ======= Footer ======= -->
+    <div class="container">
+    </div>
+
+
+    <script src="/weekdayFinder.js"></script>
+    <!-- Bootsrap javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

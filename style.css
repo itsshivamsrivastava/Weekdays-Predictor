@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.body{
+    background-color: #4CAF50;
+    color: black;
+}
+
+.body a{
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+.body a:hover {
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.my-container{
+    background-color: #5e645e;
+    width: 40rem;
+    border: 5px solid black;
+    border-radius: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.my-top-2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.font-family-label{
+    font-family: "Audiowide", sans-serif;
+    font-size: x-large;
+    /* float: left; */
+}
+.font-family-h1{
+    font-family: "Audiowide", sans-serif;
+}
+.font-family-p{
+    font-family: "Aclonica", sans-serif;
+}
+.font-family-btn{
+    font-family: "Akaya Telivigala", sans-serif;
+}
+.my-btn{
+    background-color: #4CAF50;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.my-btn:hover{
+    background-color: #ac9f9f;
+}
+.input-box{
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.my-footer{
+    margin-top: 1.8rem;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer {
+    text-align: center;
+    color: #000000;
+    padding: -6px 0;
+    font-family: "Akaya Telivigala", sans-serif;
+  }
+  footer .copyright {
+    margin-bottom: 0.3rem;
+  }
+  footer .credits {
+    margin-bottom: 0;
+  }
+  footer .credits a {
+    color: #000000;
+  }
